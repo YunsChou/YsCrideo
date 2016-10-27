@@ -1,0 +1,16 @@
+//
+//  YsCrideo-Prefix.pch
+//  YsCrideo
+//
+//  Created by weiying on 16/10/26.
+//  Copyright © 2016年 yunschou. All rights reserved.
+//
+
+#ifndef YsCrideo_Prefix_pch
+#define YsCrideo_Prefix_pch
+
+#import "YsMacro.h"
+#import "SizeMacro.h"
+#import "UIView+Extension.h"
+
+#endif /* YsCrideo_Prefix_pch */

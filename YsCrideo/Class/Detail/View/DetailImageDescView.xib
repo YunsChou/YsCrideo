@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailImageDescView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="280"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YrP-aT-mEd" userLabel="BottomImgView">
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Those who accompany the human wang xingren" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qaC-hn-3v4">
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#Trailer  |  02'17''" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQO-H9-G83">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vnG-tj-j70" userLabel="lineImgView">
+                    <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="NNg-pO-v6k"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUH-mb-29P">
+                    <string key="text">摘要: 前言 最近又要做新功能了，虽然没有什么难点，只是获取后端XML数据显示到TableView，但是不是可以更简单快速的完成呢？原来Cell的动态高度一直都是通过sizeWithFont手动计算，潜意识觉得这应该不是最好的实现方式，但由于当时时间紧不允许尝试新技术，所以问题也就遗留了下来，这次又遇到了，时间充裕就解决下吧。 Autolayout是解决自适应frame问题的解决方案</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZl-Mn-THl">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="gSY-Wm-Om6"/>
+                        <constraint firstAttribute="height" constant="30" id="uFr-dy-8pY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="0.0"/>
+                    <state key="normal" title="999+" image="icon_item_like"/>
+                    <state key="disabled" image="icon_item_liked"/>
+                    <connections>
+                        <action selector="likeButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="gqz-VM-ock"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jtz-NO-6Gt">
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <inset key="titleEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2" maxY="0.0"/>
+                    <state key="normal" title="999+" image="icon_item_share"/>
+                    <connections>
+                        <action selector="shareButtonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="J9R-cF-w1T"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oUH-mb-29P" firstAttribute="top" secondItem="vnG-tj-j70" secondAttribute="bottom" constant="10" id="2W7-ZU-ggZ"/>
+                <constraint firstAttribute="trailing" secondItem="oUH-mb-29P" secondAttribute="trailing" constant="10" id="8c4-fp-Ssf"/>
+                <constraint firstItem="qaC-hn-3v4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="ICv-3d-jJO"/>
+                <constraint firstAttribute="bottom" secondItem="dZl-Mn-THl" secondAttribute="bottom" constant="12" id="Jnk-zG-NHh"/>
+                <constraint firstItem="vnG-tj-j70" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="K9R-dp-phM"/>
+                <constraint firstItem="Jtz-NO-6Gt" firstAttribute="leading" secondItem="dZl-Mn-THl" secondAttribute="trailing" constant="2" id="Kym-oy-JS6"/>
+                <constraint firstItem="YrP-aT-mEd" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="M7h-m1-PQp"/>
+                <constraint firstItem="yQO-H9-G83" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="QRa-ha-IiR"/>
+                <constraint firstAttribute="trailing" secondItem="YrP-aT-mEd" secondAttribute="trailing" id="SwS-ic-Qc4"/>
+                <constraint firstItem="oUH-mb-29P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Uhn-Oc-zIQ"/>
+                <constraint firstAttribute="trailing" secondItem="yQO-H9-G83" secondAttribute="trailing" constant="10" id="Z9a-89-4qi"/>
+                <constraint firstAttribute="trailing" secondItem="vnG-tj-j70" secondAttribute="trailing" constant="10" id="ZsZ-O6-Ndu"/>
+                <constraint firstItem="Jtz-NO-6Gt" firstAttribute="width" secondItem="dZl-Mn-THl" secondAttribute="width" id="acw-6X-Jlx"/>
+                <constraint firstItem="vnG-tj-j70" firstAttribute="top" secondItem="yQO-H9-G83" secondAttribute="bottom" constant="10" id="cQx-Il-mw7"/>
+                <constraint firstItem="yQO-H9-G83" firstAttribute="top" secondItem="qaC-hn-3v4" secondAttribute="bottom" constant="10" id="fUR-sc-xd6"/>
+                <constraint firstAttribute="bottom" secondItem="YrP-aT-mEd" secondAttribute="bottom" id="le2-xp-agC"/>
+                <constraint firstItem="dZl-Mn-THl" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="lsM-Ai-DKr"/>
+                <constraint firstAttribute="trailing" secondItem="qaC-hn-3v4" secondAttribute="trailing" constant="10" id="sct-bc-YPP"/>
+                <constraint firstItem="Jtz-NO-6Gt" firstAttribute="height" secondItem="dZl-Mn-THl" secondAttribute="height" id="u0x-xj-wv8"/>
+                <constraint firstItem="YrP-aT-mEd" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uXM-ke-snX"/>
+                <constraint firstItem="qaC-hn-3v4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="zeS-g6-9dR"/>
+                <constraint firstItem="Jtz-NO-6Gt" firstAttribute="bottom" secondItem="dZl-Mn-THl" secondAttribute="bottom" id="zpY-bF-XOP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="ImgDescBlureImageView" destination="YrP-aT-mEd" id="gp5-s0-DIz"/>
+                <outlet property="ImgDescContentLabel" destination="oUH-mb-29P" id="cpk-Ou-gTM"/>
+                <outlet property="ImgDescLikeButton" destination="dZl-Mn-THl" id="jSr-JB-xq1"/>
+                <outlet property="ImgDescShareButton" destination="Jtz-NO-6Gt" id="aZg-vO-dwx"/>
+                <outlet property="ImgDescTimeLabel" destination="yQO-H9-G83" id="l0H-gc-1hd"/>
+                <outlet property="ImgDescTitleLabel" destination="qaC-hn-3v4" id="rTF-t4-w38"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="14"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_item_like" width="24" height="24"/>
+        <image name="icon_item_liked" width="24" height="24"/>
+        <image name="icon_item_share" width="24" height="24"/>
+    </resources>
+</document>
