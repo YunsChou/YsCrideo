@@ -19,21 +19,21 @@
 @end
 
 @interface LocalDataModel : NSObject
-
+/**类别*/
 @property (nonatomic, copy) NSString *category;
-
+/**列表图片*/
 @property (nonatomic, copy) NSString *coverURL;
-
+/**标题*/
 @property (nonatomic, copy) NSString *title;
-
+/**播放时长*/
 @property (nonatomic, copy) NSString *duration;
-
+/**内容描述*/
 @property (nonatomic, copy) NSString *desc;
-
+/**来源*/
 @property (nonatomic, copy) NSString *source;
-
+/**视屏播放链接*/
 @property (nonatomic, copy) NSString *playURL;
-
+/**后台数据添加时间*/
 @property (nonatomic, strong) NSDate *date;
 
 
