@@ -1,5 +1,6 @@
 # YsCrideo
-【开源项目】开源公司视屏项目
+
+【开源项目】开源简单的视屏项目
 
 由于各种原因，公司已暂停该项目运营了
 
@@ -10,5 +11,4 @@
 三个页面层级关系：列表页（controller）->详情页（view）->视屏播放页（view）
 
 ![img](https://github.com/YunsChou/YsResource/YsCrideo_ Animation.gif)
-
 
