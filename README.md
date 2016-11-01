@@ -9,5 +9,5 @@
 
 三个页面层级关系：列表页（controller）->详情页（view）->视屏播放页（view）
 
-![img](https://github.com/YunsChou/YsResource/YsCrideo_ Animation.gif)
+![img](https://github.com/YunsChou/YsResource/blob/master/YsCrideo_Animation.gif)
 
