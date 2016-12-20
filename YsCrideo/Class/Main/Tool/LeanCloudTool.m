@@ -9,10 +9,10 @@
 #import "LeanCloudTool.h"
 #import <AVOSCloud/AVOSCloud.h>
 
-static NSString *appID = @"DGnG1OD1NVfhhsiGxIQw6bJW-MdYXbMMI";
-static NSString *appKey = @"1qE5d1P51UbH00hHCr861Oy4";
+static NSString *appID = @"fk4AUJ7OlHYbidD4LxalEalR-gzGzoHsz";
+static NSString *appKey = @"rinLEHC3cazLFkttM1XWiilF";
 
-static NSString *dataTable = @"TestVideo";
+static NSString *dataTable = @"VideoTable";
 
 @implementation LeanCloudTool
 

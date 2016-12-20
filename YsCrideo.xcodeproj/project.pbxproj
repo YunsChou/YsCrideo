@@ -339,7 +339,7 @@
 				TargetAttributes = {
 					A189D5371DC098AB009BB3D1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = EK3Q6H7A5Z;
+						DevelopmentTeam = 35NR6QVJRD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -549,7 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = EK3Q6H7A5Z;
+				DEVELOPMENT_TEAM = 35NR6QVJRD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YsCrideo/Class/Main/Other/YsCrideo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YsCrideo/Info.plist";
@@ -565,7 +565,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = EK3Q6H7A5Z;
+				DEVELOPMENT_TEAM = 35NR6QVJRD;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YsCrideo/Class/Main/Other/YsCrideo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YsCrideo/Info.plist";
