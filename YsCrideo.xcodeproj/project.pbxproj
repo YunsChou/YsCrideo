@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3441EA08613506E89E82A495 /* libPods-YsCrideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB94964F1030A2FF919A26AF /* libPods-YsCrideo.a */; };
 		A189D5481DC098AB009BB3D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A189D5471DC098AB009BB3D1 /* Assets.xcassets */; };
 		A189D5641DC09B9A009BB3D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A189D55C1DC09B9A009BB3D1 /* AppDelegate.m */; };
 		A189D5661DC09B9A009BB3D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A189D5621DC09B9A009BB3D1 /* main.m */; };
@@ -30,8 +31,6 @@
 		A189D59E1DC0A338009BB3D1 /* HomeListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A189D59B1DC0A338009BB3D1 /* HomeListViewModel.m */; };
 		A189D5A41DC0A35A009BB3D1 /* XLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = A189D5A11DC0A35A009BB3D1 /* XLSlider.m */; };
 		A189D5A51DC0A35A009BB3D1 /* XLVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A189D5A31DC0A35A009BB3D1 /* XLVideoPlayer.m */; };
-		A18A55A71DC0B2AB0009CFFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A18A55A61DC0B2AB0009CFFC /* Info.plist */; };
-		F1EFA7BA2D9E06E5D8B610FC /* libPods-YsCrideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B62150C8FEB22D1673336AFE /* libPods-YsCrideo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,8 +81,8 @@
 		A189D5A31DC0A35A009BB3D1 /* XLVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLVideoPlayer.m; sourceTree = "<group>"; };
 		A18A55A51DC0AE8D0009CFFC /* SizeMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeMacro.h; sourceTree = "<group>"; };
 		A18A55A61DC0B2AB0009CFFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B62150C8FEB22D1673336AFE /* libPods-YsCrideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YsCrideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99B5A0A017E368F40E5209C /* Pods-YsCrideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YsCrideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YsCrideo/Pods-YsCrideo.debug.xcconfig"; sourceTree = "<group>"; };
+		DB94964F1030A2FF919A26AF /* libPods-YsCrideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YsCrideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1EFA7BA2D9E06E5D8B610FC /* libPods-YsCrideo.a in Frameworks */,
+				3441EA08613506E89E82A495 /* libPods-YsCrideo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +100,7 @@
 		0826C325C36F28A03B25F8B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B62150C8FEB22D1673336AFE /* libPods-YsCrideo.a */,
+				DB94964F1030A2FF919A26AF /* libPods-YsCrideo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -312,12 +311,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A189D54F1DC098AB009BB3D1 /* Build configuration list for PBXNativeTarget "YsCrideo" */;
 			buildPhases = (
+				A7675B4EDE71C5D30463C6AC /* [CP] Check Pods Manifest.lock */,
 				FCAA09B962C7A69C12FFCBB2 /* 📦 Check Pods Manifest.lock */,
 				A189D5341DC098AB009BB3D1 /* Sources */,
 				A189D5351DC098AB009BB3D1 /* Frameworks */,
 				A189D5361DC098AB009BB3D1 /* Resources */,
-				CF3BDF60EC13F99F7A322F52 /* 📦 Embed Pods Frameworks */,
 				D678218902E25E18663680E1 /* 📦 Copy Pods Resources */,
+				732120060B1795F0ACD0DF41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -339,7 +339,7 @@
 				TargetAttributes = {
 					A189D5371DC098AB009BB3D1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 35NR6QVJRD;
+						DevelopmentTeam = J55A74BS43;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -370,7 +370,6 @@
 				A189D57C1DC0A2E0009BB3D1 /* DetailImageDescView.xib in Resources */,
 				A189D5481DC098AB009BB3D1 /* Assets.xcassets in Resources */,
 				A189D58D1DC0A316009BB3D1 /* HomeListItemCell.xib in Resources */,
-				A18A55A71DC0B2AB0009CFFC /* Info.plist in Resources */,
 				A189D58B1DC0A316009BB3D1 /* HomeListGroupHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,19 +377,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		CF3BDF60EC13F99F7A322F52 /* 📦 Embed Pods Frameworks */ = {
+		732120060B1795F0ACD0DF41 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YsCrideo/Pods-YsCrideo-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YsCrideo/Pods-YsCrideo-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YsCrideo/Pods-YsCrideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7675B4EDE71C5D30463C6AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YsCrideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D678218902E25E18663680E1 /* 📦 Copy Pods Resources */ = {
@@ -549,13 +571,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 35NR6QVJRD;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J55A74BS43;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YsCrideo/Class/Main/Other/YsCrideo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YsCrideo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunschou.YsCrideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuns.YsCrideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -565,13 +592,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 35NR6QVJRD;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J55A74BS43;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YsCrideo/Class/Main/Other/YsCrideo-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YsCrideo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yunschou.YsCrideo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuns.YsCrideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

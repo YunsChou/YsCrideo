@@ -58,7 +58,7 @@
     self.ImgDescTimeLabel.text = [NSString stringWithFormat:@"#%@  |  %@", homeListM.localData.category, timeString];
     
     __weak typeof(self) weakSelf = self;
-    [[SDWebImageManager sharedManager] downloadImageWithURL:[NSURL URLWithString:homeListM.localData.coverURL] options:(SDWebImageRetryFailed) progress:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
+    [[[SDWebImageManager sharedManager] imageDownloader] downloadImageWithURL:[NSURL URLWithString:homeListM.localData.coverURL] options:0 progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, BOOL finished) {
         if (image) {
             CABasicAnimation *contentsAnimation = [CABasicAnimation animationWithKeyPath:@"contents"];
             contentsAnimation.duration = 0.5f;

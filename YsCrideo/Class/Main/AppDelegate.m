@@ -37,7 +37,7 @@
 {
     DLog(@"收到内存警告");
     [[SDWebImageManager sharedManager] cancelAll];
-    [[SDImageCache sharedImageCache] clearDisk];
+    [[SDImageCache sharedImageCache] clearMemory];
 }
 
 @end
